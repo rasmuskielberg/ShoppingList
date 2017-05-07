@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#86b0f9</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextPrimary">#000000</color>
+    <color name="colorActionBarBackground">#0e2b5e</color>
+    <color name="colorActionBarText">#FFFFFF</color>
+    <color name="colorShoppingListBackground">#f8ff74</color>
+    <color name="colorItemSearchBackground">#e6ff74</color>
+    <color name="colorTextHint">#00b38b</color>
+
+</resources>

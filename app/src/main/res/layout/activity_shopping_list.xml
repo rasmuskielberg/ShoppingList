@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorShoppingListBackground"
+    tools:context="junior.shoppinglist.activity.ShoppingListActivity">
+
+    <TextView
+        android:id="@+id/shoppingListName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextPrimary"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorTextPrimary" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorShoppingListBackground"
+        android:layout_weight="1">
+    </ListView>
+
+    <TextView
+        android:id="@+id/add_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/colorTextPrimary"
+        android:text="@string/button_add_item"
+        android:drawableStart="@drawable/ic_add_box_black_24dp"
+        android:drawablePadding="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+</LinearLayout>

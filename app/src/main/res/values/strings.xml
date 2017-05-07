@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Indkøbslisten</string>
+    <string name="splash_shopping_cart">Indkøbsvogn</string>
+    <string name="add">Tilføj</string>
+    <string name="add_list">Tilføj liste</string>
+    <string name="list_name">Liste navn</string>
+    <string name="settings">Indstillinger</string>
+    <string name="button_add_item">Tilføj vare</string>
+    <string name="search_item_hint">Vare</string>
+    <string name="search_item_quantity_hint">Antal</string>
+    <string name="button_close">Luk</string>
+    <string name="button_delete">Slet</string>
+    <string name="added_to_list">Tilføjet</string>
+    <string name="add_list_error">Udfyld venligst et navn på listen</string>
+
+
+    <string name="list_type_name_div">Diverse</string>
+</resources>
